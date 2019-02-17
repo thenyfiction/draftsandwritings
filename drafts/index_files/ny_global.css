@@ -1,0 +1,130 @@
+
+body { background-color: rgb(101,101,101); margin: 0px; }
+div { font-family: 'times new roman',times,serif; }
+
+p { margin: 10 0 0 0px; }
+
+a { color: rgb(0,0,0); }
+a.contributors { color: rgb(224,0,55); text-decoration: none; }
+a.contributors:visited { color: rgb(224,0,55); text-decoration: none; }
+a.printable { text-decoration: none; }
+a:visited { color: rgb(51,51,51); }
+a.talk { color: rgb(224,0,55); text-decoration: none; }
+a.talk:visited { color: rgb(224,0,55); }
+a.store { color: rgb(224,0,55); }
+a.store:visited { color: rgb(224,0,55); }
+a.home { text-transform: lowercase; text-decoration: none; color: rgb(255,255,255); }
+a.home:visited { color: rgb(255,255,255); }
+a.footer { color: rgb(51,51,51); }
+a.listings { font-size: 0.8em; font-family: arial,helvetica,verdana,san-serif; }
+a.menubox { color: rgb(224,0,55); }
+a.menubox:visited { color: rgb(224,0,55); }
+
+.white { background-color: rgb(255,255,255); }
+.grey { background-color: rgb(204,204,204); }
+.charcoal { background-color: rgb(101,101,101); }
+.black { background-color: rgb(0,0,0); }
+.blue { background-color: rgb(0,122,190); }
+.red { background-color: rgb(224,0,55); }
+
+/* slideshow classes */
+div.issuepublish { font-size: 0.8em; font-family: arial,helvetica,verdana,san-serif; color: rgb(102,102,102); padding: 10 0 0 0px; }
+a.slideshow { color: rgb(224,0,55); }
+a.slideshow:hover { color: rgb(153,0,0); }
+a.slideshow:visited { color: rgb(224,0,55); }
+div.slideshowlinks { font-size: 0.7em; font-family: arial,helvetica,verdana,san-serif; padding: 8 4 8 5px; }
+div.slideshowlink { font-family: arial,helvetica,verdana,san-serif; padding: 3 0 2 0px; }
+div.slideshowcurrentlink { font-weight: 700; font-family: arial,helvetica,verdana,san-serif; padding: 3 0 2 0px; }
+div.slideshowcontent { padding: 8 12 8 32px; }
+div.slideshowunit { font-size: 0.8em; padding: 6 0 8 0px; }
+div.slideshowheader { padding: 0 0 8 0px; }
+div.slideshowtitle { font-weight: 700; padding: 4 0 0 0px; }
+div.slideshowauthor { padding: 4 0 0 0px; }
+div.slideshowsource { font-weight: 700; padding: 4 0 0 0px; }
+div.slideshowimage { float: center; text-align: center; padding-top: 12px; }
+div.slideshowcredit { text-align: right; padding-right: 24px; }
+div.slideshowcontrols { font-weight: 700; }
+p.poem { font-size: 0.8em; font-family: arial,helvetica,san-serif; }
+
+div.archiveunit { padding: 7 21 0 21px; }
+div.archivesubsection { font-size: 0.9em; color: rgb(224,0,55); padding: 3 0 0 0px; }
+span.archivetitle { font-size: 0.9em; font-weight: 700; }
+span.archivepagetitle { font-size: 1.0em; font-weight: 700; text-decoration: underline; }
+span.archiveauthor { font-size: 0.9em; }
+span.archiveblurb { font-size: 0.8em; }
+div.archivesummary { font-size: 0.8em; font-family: arial,helvetica,verdana,san-serif; }
+div.archivedates { font-size: 0.8em; font-family: arial,helvetica,verdana,san-serif; color: rgb(102,102,102); }
+
+div.content { font-size: 0.8em; padding: 8 12 8 32px; }
+div.index { font-size: 0.8em; padding: 8 6 8 16px; }
+div.menubox { font-size: 0.6em; font-family: arial,helvetica,verdana,san-serif; padding: 6 4 0 5px; }
+div.footer { font-size: 0.8em; font-family: arial,helvetica,verdana,san-serif; }
+div.credit { font-size: 0.8em; font-family: arial,helvetica,verdana,san-serif; color: rgb(102,102,102); text-align: right; }
+div.caption { font-size: 0.8em; font-family: arial,helvetica,verdana,san-serif; }
+div.issuedate { font-size: 0.8em; font-family: arial,helvetica,verdana,san-serif; color: rgb(102,102,102); padding: 10 0 0 0px; }
+div.date { font-size: 0.7em; font-family: arial,helvetica,verdana,san-serif; padding: 2 16 2 0px; color: rgb(255,255,255); }
+div.summary { font-size: 0.8em; font-family: arial,helvetica,verdana,san-serif; padding: 2 0 2 0px; }
+div.image { margin: 10 0 0 0px; }
+div.author { font-size: 0.9em; }
+
+div.subsection { font-style: italic; padding: 14 0 0 0px; }
+div.subtitle { font-size: 0.9em; font-family: arial,helvetica,verdana,san-serif; font-weight: 700; }
+div.center { padding: 8 8 8 16px; text-align: center; }
+div.floatright { float: right; padding: 6 0 6 16px; }
+div.floatleft { float: left; }
+
+div.cover { font-size: 0.8em; font-family: arial,helvetica,san-serif; padding: 2 8 0 16px; }
+div.title { font-weight: 700; padding: 2 0 1 0px; }
+div.talksubsection { color: rgb(224,0,55); }
+div.printheader { font-size: 0.8em; font-family: arial,helvetica,verdana,san-serif; font-weight: 700; color: rgb(224,0,55); }
+div.shortlist { font-style: italic; padding: 18 0 6 0px; }
+div.topimage { font-size: 0.8em; padding: 8 6 16 16px; }
+div.topstory { font-size: 0.8em; padding: 0 6 16 0px; }
+div.cartoon { font-size: 0.8em; text-align: center; padding: 8 0 8 0px; }
+div.contributors { font-size: 0.8em; padding: 6 18 0 32px; }
+div.store { padding: 6 6 6 6px; }
+
+p.descender:first-letter { font-size: 2em; text-align: left; }
+p.quote { font-size: 0.8em; font-family: arial,helvetica,verdana,san-serif; }
+p.question { font-weight: 700; }
+p.introduction { font-size: 0.8em; font-family: arial,helvetica,verdana,san-serif; padding: 10 0 10 0px; }
+p.answer { }
+p.information { }
+
+span.date { color: rgb(255,255,255); }
+span.bold { font-weight: 700; }
+span.subtitle { font-size: 0.9em; font-family: arial,helvetica,verdana,san-serif; font-weight: 700; }
+span.italic { font-style: italic; }
+span.cartoon { font-style: italic; }
+span.opening { font-size: 0.9em; }
+span.uppercase { text-transform: uppercase; }
+span.smallcaps { font-size: 0.8em; text-transform: uppercase; }
+
+#magazine { position: absolute; left: 99; top: 135; visibility: hidden; }
+#goat { position: absolute; left: 99; top: 190; visibility: hidden; }
+#talk { position: absolute; left: 99; top: 225; visibility: hidden; }
+#critics { position: absolute; left: 99; top: 255; visibility: hidden; }
+#cartoons { position: absolute; left: 99; top: 370; visibility: hidden; }
+
+
+/*
+     FILE ARCHIVED ON 23:53:55 Nov 15, 2001 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:23:01 Feb 17, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 48.923 (3)
+  esindex: 0.01
+  captures_list: 73.88
+  CDXLines.iter: 17.313 (3)
+  PetaboxLoader3.datanode: 73.072 (4)
+  exclusion.robots: 0.194
+  exclusion.robots.policy: 0.179
+  RedisCDXSource: 1.909
+  PetaboxLoader3.resolve: 44.304
+  load_resource: 84.172
+*/
