@@ -3,8 +3,21 @@ body {
 	color: #000000;
 	background-color: #656565;
 	margin: 0;
+	background-attachment: scroll;
+	background-image: url(../assets/background.gif);
+	background-repeat: repeat;
+	background-position: left top;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 12px;
+	font-weight: normal;
 }
-
+table, td, tr, p {
+	font-size: 10px;
+	font-style: normal;
+	line-height: 12px;
+	font-weight: normal;
+}
 .copy {
 	color: #F6F6F6;
 }
